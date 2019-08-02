@@ -1,6 +1,6 @@
 //__________________________________________________________Algorithm___________________________________________________________________________//
 /*
-Requirements:
+
 1) Only two users can play at the same time.
 
 2) Both players pick either rock, paper or scissors.
@@ -16,9 +16,13 @@ Requirements:
 
 //____________________________________________________________Program___________________________________________________________________________//
 
+
+
+
+//_______________________________________________Initializing Firebase_________________________________________________________________//
 //#region Firebase init and vars
 
-// Initialize Firebase
+// Initialize firebaseConfiguration variable: --Assignments -> RockPaperScissors
 var firebaseConfig = {
     apiKey: "AIzaSyB99OcE5d7ygvd4GFsYwnI-GkFvu2W4ZzI",
     authDomain: "assignments-b9f09.firebaseapp.com",
@@ -37,7 +41,7 @@ var playersRef = db.ref("/players");
 var chatRef = db.ref("/chat");
 var connectedRef = db.ref(".info/connected");
 
-// global vars to keep track of all player data locally
+// global variables to keep track of all player data locally
 var playerName,
     player1LoggedIn = false,
     player2LoggedIn = false,
@@ -56,7 +60,7 @@ var playerName,
         losses: 0
     },
     resetId;
-//#endregion
+//#end-region
 
 //#region Database functions
 
@@ -164,9 +168,9 @@ playersRef.on("value", function (snap) {
 
 }, errorHandler);
 
-//#endregion
+//#end-region
 
-//#region Click listeners
+//#region Click Listeners
 
 // when the login button is clicked, add the new player to the open player slot
 $("#login").click(function (e) {
@@ -224,8 +228,7 @@ $("#send-chat").click(function (e) {
 
     $("#chat").val("");
 });
-
-//#endregion
+//#end-region
 
 //#region Game functions
 

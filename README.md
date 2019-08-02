@@ -7,9 +7,6 @@ In this assignment, you'll indeed create another Rock Paper Scissors game. The c
 ## Motivation
 My primary motivation beyond the assignment's due date is a genuine interest in learning how to work with firebase as well as learning how to structure code to focus on multiplayer aspects to serve as a solid foundation in my growth as a developer.
 
-## Screenshots
-
-
 ### Technology Used
 * HTML
 * CSS
@@ -29,4 +26,7 @@ My primary motivation beyond the assignment's due date is a genuine interest in 
     * Set-up Firebase inquiry
     * Algorithm and began working on programming script.js
 
-* 08.01.2019 - Debugging Firebase set-up
+* 08.01.2019
+    *Debugging Firebase set-up
+
+*08.02.2019
