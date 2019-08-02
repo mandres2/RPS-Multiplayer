@@ -1,24 +1,22 @@
 //__________________________________________________________Algorithm___________________________________________________________________________//
 /*
 Requirements:
+1) Only two users can play at the same time.
 
-Only two users can play at the same time.
+2) Both players pick either rock, paper or scissors.
+    a) R>S
+    b) S>P
+    c) P>R
+3) After the players make their selection, the game will tell them whether a tie occurred or if one player defeated the other.
 
-Both players pick either rock, paper or scissors.
-After the players make their selection, the game will tell them whether a tie occurred or if one player defeated the other.
+4) The game will track each player's wins and losses.
 
-The game will track each player's wins and losses.
-
-Users can chat with each other
+5) Users can chat with each other via the chat-box.
 */
 
-
-
-
-
 //____________________________________________________________Program___________________________________________________________________________//
-//#region Firebase init and vars
 
+//#region Firebase init and vars
 
 // Initialize Firebase
 var firebaseConfig = {
