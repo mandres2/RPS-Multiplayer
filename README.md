@@ -29,4 +29,5 @@ My primary motivation beyond the assignment's due date is a genuine interest in 
 * 08.01.2019
     *Debugging Firebase set-up
 
-*08.02.2019
+*08.02.2019 -08.04.19
+*Debugging and commenting, re-organizing code in VS Studio. 
