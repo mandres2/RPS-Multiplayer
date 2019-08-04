@@ -22,7 +22,7 @@
 //_______________________________________________Initializing Firebase_________________________________________________________________//
 //#region Firebase init and vars
 
-// Initialize firebaseConfiguration variable: --Assignments -> RockPaperScissors
+// Initialize firebaseConfiguration variable: -- Assignments -> RockPaperScissors
 var firebaseConfig = {
     apiKey: "AIzaSyB99OcE5d7ygvd4GFsYwnI-GkFvu2W4ZzI",
     authDomain: "assignments-b9f09.firebaseapp.com",
@@ -60,7 +60,7 @@ var playerName,
         losses: 0
     },
     resetId;
-//#end-region
+
 
 //#region Database functions
 
@@ -168,7 +168,7 @@ playersRef.on("value", function (snap) {
 
 }, errorHandler);
 
-//#end-region
+
 
 //#region Click Listeners
 
@@ -228,7 +228,7 @@ $("#send-chat").click(function (e) {
 
     $("#chat").val("");
 });
-//#end-region
+
 
 //#region Game functions
 
@@ -325,7 +325,7 @@ function errorHandler(error) {
     console.log("Error:", error.code);
 }
 
-//#endregion
+
 
 //#region Display functions
 
@@ -360,4 +360,3 @@ function showSelections() {
 }
 
 
-//#endregion
